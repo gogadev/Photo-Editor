@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+
+body {
+  font-family: "Courgette", cursive;
+}
+
+#upload {
+  text-align: center;
+  font-size: 1.5rem;
+  background: linear-gradient(whitesmoke, darkgrey, black);
+  border-radius: 10px;
+}
+
+input {
+  margin: 2em 0;
+}
+
+#buttons {
+  background: linear-gradient(white, grey, black);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em 0;
+  border: 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button {
+  background: linear-gradient(white, grey, darkgrey);
+  border-radius: 10px;
+  width: 10em;
+  padding: 10px;
+  font-family: "Courgette", cursive;
+  text-shadow: -1px 1px whitesmoke, 1px 2px darkgrey;
+  font-weight: bolder;
+}
+
+canvas {
+  max-width: 100%;
+}

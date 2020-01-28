@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Photo Editor</title>
+  </head>
+  <body>
+    <div id="upload">
+      <label for="uploader">Select file:</label>
+      <input type="file" id="uploader" />
+    </div>
+
+    <div id="buttons">
+      <button>Greyscale</button>
+      <button>Sepia effect</button>
+      <button>Invert</button>
+      <button>RGB > RBG</button>
+      <button>RGB > BGR</button>
+      <button>RGB > GBR</button>
+      <button>RGB > GRB</button>
+      <button>Clear</button>
+    </div>
+
+    <div>
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="goga.js"></script>
+  </body>
+</html>
